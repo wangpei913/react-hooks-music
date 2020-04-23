@@ -1,12 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import {LocaleProvider} from 'antd'
 import App from './App';
+import zhCN from 'antd/lib/locale-provider/zh_CN'
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <LocaleProvider locale={zhCN}>
+      <App />
+    </LocaleProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );

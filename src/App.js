@@ -1,26 +1,20 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { lazy } from 'react';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+const LayoutIndex = lazy(() => import('./layout'));
+const HeaderContainer = lazy(() => import('./layout/header'));
+const Loading = () => <div>loading....</div>
+
+class App extends React.PureComponent {
+  render () {
+    return (
+      <React.Suspense fallback={<Loading />}>
+        <LayoutIndex>
+          <HeaderContainer />
+          11111111111111111111111111111
+        </LayoutIndex>
+      </React.Suspense>
+    )
+  }
 }
 
 export default App;

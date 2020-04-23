@@ -1,0 +1,51 @@
+{
+  "id": "1773718",
+  "name": "react-music",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "11648918",
+      "name": "微信分享",
+      "font_class": "weixinfenxiang",
+      "unicode": "e70f",
+      "unicode_decimal": 59151
+    },
+    {
+      "icon_id": "1002917",
+      "name": "qq分享",
+      "font_class": "qqfenxiang",
+      "unicode": "e676",
+      "unicode_decimal": 58998
+    },
+    {
+      "icon_id": "10854519",
+      "name": "微博 分享页",
+      "font_class": "weibofenxiangye",
+      "unicode": "e66c",
+      "unicode_decimal": 58988
+    },
+    {
+      "icon_id": "10935308",
+      "name": "网易",
+      "font_class": "wangyi",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "11931077",
+      "name": "search",
+      "font_class": "search1",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "7005551",
+      "name": "music",
+      "font_class": "music",
+      "unicode": "e60e",
+      "unicode_decimal": 58894
+    }
+  ]
+}
